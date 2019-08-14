@@ -1,0 +1,23 @@
+label {
+  display: block;
+  cursor: pointer;
+}
+#toggle {
+  display: none;
+}
+
+.headerStyle {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-align: right;
+  padding: 10px;
+  width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+#toggle:checked + .menu {
+  display: block;
+}
