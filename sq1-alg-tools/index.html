@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Square-1 Alg Tools</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h2 class="text-center mt-3">Square-1 Alg Tools <span class="h6 text-secondary"> by Eva Kato</span></h2>
+
+        <div class="row justify-content-md-center">
+            <form class="col-sm-8">
+                <div class="form-group my-2">
+                    <input class="form-control py-3" id="alg-input" placeholder="Enter Alg">
+                </div>
+            </form>
+        </div>
+
+        <div class="row justify-content-md-center">
+                <div class="my-3 col-sm-8">
+                    <span class="h6 text-success px-2 my-4" data-toggle="tooltip" data-placement="top" title="Eliminates spaces and letters, changes numbers 6-12 to counterclockwise moves, and shortens the first and last moves.">Reformatted: </span><span class="h6 text-dark" id="reformatted-alg"></span>
+                </div>
+            </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-primary px-2 my-4" data-toggle="tooltip" data-placement="top" title="Reverses the algorithm.">Inverse: </span><span class="h6 text-dark" id="inverse-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-primary px-2 my-4" data-toggle="tooltip" data-placement="top" title="The U and D layer cases will be switched.">Mirror: </span><span class="h6 text-dark" id="mirror-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-secondary px-2 my-4">Inverse Mirror: </span><span class="h6 text-dark" id="inverse-mirror-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-primary px-2 my-4" data-toggle="tooltip" data-placement="top" title="Mirrors the algorithm from right to left on both the the U and D layers.">Lefty: </span><span class="h6 text-dark" id="lefty-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-secondary px-2 my-4">Inverse Lefty: </span><span class="h6 text-dark" id="inverse-lefty-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-primary px-2 my-4">Mirror Lefty: </span><span class="h6 text-dark" id="mirror-lefty-alg"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="my-3 col-sm-8">
+                <span class="h6 text-secondary px-2 my-4">Inverse Mirror Lefty: </span><span class="h6 text-dark" id="inverse-mirror-lefty-alg"></span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
