@@ -20,8 +20,8 @@ function About() {
             <div style={gridSubContainer}>
               <p>
                 Eva Kato is a dominant female cuber from the US who produces
-                YouTube content about speedsolving. She is 17 years old and has
-                been cubing for over six years. Eva mainly practices 3x3 and
+                YouTube content about speedsolving. She is 19 years old and has
+                been cubing for over eight years. Eva mainly practices 3x3 and
                 Square-1, but thoroughly enjoys all WCA events. Her other
                 interests include soccer, programming, and music.
               </p>
@@ -137,24 +137,24 @@ function About() {
 
 const aboutImgStyle = {
   borderRadius: "50%",
-  border: "#55d6aa 3px solid"
+  border: "#55d6aa 3px solid",
 };
 
 const cubicleImgStyle = {
-  width: "100%"
+  width: "100%",
 };
 
 const gridSubContainer = {
   display: "inline-grid",
   gridTemplateRows: "auto auto",
-  gridGap: "1rem"
+  gridGap: "1rem",
 };
 
 const gridItem = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  fontSize: "120%"
+  fontSize: "120%",
 };
 
 const gridBoxItem = {
@@ -165,11 +165,11 @@ const gridBoxItem = {
   background: "#555",
   borderBottom: "3px solid #55d6aa",
   padding: ".5em",
-  marginBottom: "2rem"
+  marginBottom: "2rem",
 };
 
 const importantLinks = {
-  padding: "0 .5rem"
+  padding: "0 .5rem",
 };
 
 export default About;
