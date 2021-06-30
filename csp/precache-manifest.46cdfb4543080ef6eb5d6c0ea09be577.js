@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cc1da149b460170c33f7bd3e398ba32",
+    "revision": "4305c26e164dc5413022d5614489a8a5",
     "url": "/csp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/csp/static/css/2.87a9c7a2.chunk.css"
   },
   {
-    "revision": "529fb59a6e7fb6106404",
+    "revision": "03f3ef7f1bb02558a766",
     "url": "/csp/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/csp/static/js/2.86222ccf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "529fb59a6e7fb6106404",
-    "url": "/csp/static/js/main.696a799b.chunk.js"
+    "revision": "03f3ef7f1bb02558a766",
+    "url": "/csp/static/js/main.83f33907.chunk.js"
   },
   {
     "revision": "a60dc8382ec1eec259e2",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/csp/static/media/Left fist top.5257fe9a.svg"
   },
   {
-    "revision": "01ceed8c387a751f824986fbc0ba8dd0",
-    "url": "/csp/static/media/Left pawn bottom.01ceed8c.svg"
+    "revision": "ef84c14c643708cc88eae008d5ca3ca5",
+    "url": "/csp/static/media/Left pawn bottom.ef84c14c.svg"
   },
   {
     "revision": "9cd73c967f23776a4f966f1ccaaec888",
